@@ -1,0 +1,109 @@
+/*start-Setting*/
+body {
+  background-image: linear-gradient(
+    to right,
+    #232d3f,
+    #213c50,
+    #184b60,
+    #075c6b,
+    #006c72,
+    #00706f,
+    #00746a,
+    #007764,
+    #00705b,
+    #006952,
+    #006249,
+    #005b41
+  );
+}
+div.wrapper {
+  width: 100%;
+}
+div.wrapper > div.calc {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: #232d3fa3;
+  box-shadow: 6px 6px 15px #232d3f;
+  border: 1px solid #008170;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  height: 450px;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+/*End-Setting*/
+/*start-input*/
+div.wrapper > div.calc > div.input > input {
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 80px;
+  height: 50px;
+  color: #008170;
+  font-size: 25px;
+  border: 3px solid #008170;
+  background-color: #344955;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+div.wrapper > div.calc > div.input > input:hover {
+  border: 3px solid #008170;
+}
+/*End-input*/
+/*start-button*/
+div.wrapper > div.calc > div.button {
+  margin-top: 20px;
+}
+
+div.wrapper > div.calc > div.button > button {
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+  background-color: #008170;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  color: #232d3f;
+  cursor: pointer;
+  border: 2px solid #006249;
+  transition: 400ms;
+}
+div.wrapper > div.calc > div.button > button#power {
+  font-weight: bold;
+  font-size: 23px;
+}
+div.wrapper > div.calc > div.button > button:focus {
+  background-color: #005b41;
+  color: #54c1a2;
+  border: 1px solid #184b60;
+}
+div.wrapper > div.calc > div.button > button:hover {
+  background-color: #005b41;
+  color: #54c1a2;
+  border: 1px solid #184b60;
+}
+/*End-button*/
+/*start-result*/
+div.wrapper > div.calc > div.result {
+  width: 100%;
+  height: 43px;
+  margin-bottom: 35px;
+}
+div.wrapper > div.calc > div.result > h1 {
+  color: #008170;
+  width: 100%;
+  height: 43px;
+  font-size: 40px;
+}
+/*End-result*/
